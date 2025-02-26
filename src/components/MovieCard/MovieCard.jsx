@@ -1,7 +1,7 @@
 import './movie-card.css';
-const imgUrl = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`;
 
 export const MovieCard = ({ movie }) => {
+  const imgUrl = `https://image.tmdb.org/t/p/w500/${movie.poster_path}`;
   // paima propsa title ir atvaizduoja
   return (
     <div className="movie-card">
